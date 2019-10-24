@@ -1,0 +1,342 @@
+{
+  "province": [ {
+    "value": "湖南",
+    "label": "湖南"
+  } ],
+  "state": [ {
+      "value": "全部",
+      "label": "全部"
+    }, {
+      "value": "预处理",
+      "label": "预处理"
+    }, {
+      "value": "受理",
+      "label": "受理"
+    }, {
+      "value": "挂起",
+      "label": "挂起"
+    },
+    {
+      "value": "处理中",
+      "label": "处理中"
+    },
+    {
+      "value": "提交",
+      "label": "提交"
+    }
+  ],
+  "accountingClass": [ {
+      "value": "全部",
+      "label": "全部"
+    },
+    {
+      "value": "QCI2承载切换差小区",
+      "label": "QCI2承载切换差小区"
+    },
+    {
+      "value": "RRC重建TOP小区_天",
+      "label": "RRC重建TOP小区_天"
+    },
+    {
+      "value": "VoLTE用户切换差小区",
+      "label": "VoLTE用户切换差小区"
+    },
+    {
+      "value": "E-RAB掉线高小区(视频)",
+      "label": "E-RAB掉线高小区(视频)"
+    },
+    {
+      "value": "VoLTE E-RAB掉线高小区(语音)",
+      "label": "VoLTE E-RAB掉线高小区(语音)"
+    },
+    {
+      "value": "VoLTE无线接通差小区(视频)",
+      "label": "VoLTE无线接通差小区(视频)"
+    },
+    {
+      "value": "VoLTE无线接通差小区(语音)",
+      "label": "VoLTE无线接通差小区(语音)"
+    },
+    {
+      "value": "VoLTE下行高时延小区",
+      "label": "VoLTE下行高时延小区"
+    },
+    {
+      "value": "eSRVCC切换差小区",
+      "label": "eSRVCC切换差小区"
+    },
+    {
+      "value": "接通差小区",
+      "label": "接通差小区"
+    },
+    {
+      "value": "娄频繁切换小区底",
+      "label": "娄频繁切换小区底"
+    },
+    {
+      "value": "切换差小区",
+      "label": "切换差小区"
+    },
+    {
+      "value": "切换差小区_天",
+      "label": "切换差小区_天"
+    },
+    {
+      "value": "吞吐率高小区",
+      "label": "吞吐率高小区"
+    },
+    {
+      "value": "低接通小区",
+      "label": "低接通小区"
+    },
+    {
+      "value": "高掉线小区",
+      "label": "高掉线小区"
+    }
+  ],
+  "hunan": [ {
+      "value": "全部",
+      "label": "全部"
+    },
+    {
+      "value": "长沙",
+      "label": "长沙"
+    },
+    {
+      "value": "岳阳",
+      "label": "岳阳"
+    },
+    {
+      "value": "常德",
+      "label": "常德"
+    },
+    {
+      "value": "衡阳",
+      "label": "衡阳"
+    },
+    {
+      "value": "株洲",
+      "label": "株洲"
+    },
+    {
+      "value": "郴州",
+      "label": "郴州"
+    },
+    {
+      "value": "湘潭",
+      "label": "湘潭"
+    },
+    {
+      "value": "永州",
+      "label": "永州"
+    },
+    {
+      "value": "邵阳",
+      "label": "邵阳"
+    },
+    {
+      "value": "益阳",
+      "label": "益阳"
+    },
+    {
+      "value": "娄底",
+      "label": "娄底"
+    },
+    {
+      "value": "怀化",
+      "label": "怀化"
+    },
+    {
+      "value": "湘西",
+      "label": "湘西"
+    },
+    {
+      "value": "张家界",
+      "label": "张家界"
+    }
+  ],
+  "factory": [ {
+      "value": "全部",
+      "label": "全部"
+    },
+    {
+      "value": "中兴",
+      "label": "中兴"
+    },
+    {
+      "value": "华为",
+      "label": "华为"
+    },
+    {
+      "value": "爱立信",
+      "label": "爱立信"
+    },
+    {
+      "value": "诺西",
+      "label": "诺西"
+    },
+    {
+      "value": "大唐",
+      "label": "大唐"
+    }
+  ],
+  "scene": [
+
+    {
+      "value": "全部",
+      "label": "全部"
+    },
+    {
+      "value": "体育场馆",
+      "label": "体育场馆"
+    },
+    {
+      "value": "火车站",
+      "label": "火车站"
+    },
+    {
+      "value": "其他",
+      "label": "其他"
+    },
+    {
+      "value": "乡镇",
+      "label": "乡镇"
+    },
+    {
+      "value": "城区道路",
+      "label": "城区道路"
+    },
+    {
+      "value": "广场公园",
+      "label": "广场公园"
+    },
+    {
+      "value": "中小学",
+      "label": "中小学"
+    },
+    {
+      "value": "高铁",
+      "label": "高铁"
+    },
+    {
+      "value": "企事业单位",
+      "label": "企事业单位"
+    },
+    {
+      "value": "高速公路",
+      "label": "高速公路"
+    },
+    {
+      "value": "高速/长浏高速",
+      "label": "高速/长浏高速"
+    },
+    {
+      "value": "码头",
+      "label": "码头"
+    },
+    {
+      "value": "地铁",
+      "label": "地铁"
+    },
+    {
+      "value": "普铁",
+      "label": "普铁"
+    },
+    {
+      "value": "公墓",
+      "label": "公墓"
+    },
+    {
+      "value": "党政军宿舍",
+      "label": "党政军宿舍"
+    },
+    {
+      "value": "风景区",
+      "label": "风景区"
+    },
+    {
+      "value": "高校",
+      "label": "高校"
+    },
+    {
+      "value": "高层居民区",
+      "label": "高层居民区"
+    },
+    {
+      "value": "休闲娱乐场所",
+      "label": "休闲娱乐场所"
+    },
+    {
+      "value": "会展中心",
+      "label": "会展中心"
+    },
+    {
+      "value": "郊区道路",
+      "label": "郊区道路"
+    },
+    {
+      "value": "写字楼",
+      "label": "写字楼"
+    },
+    {
+      "value": "高速/二广高速",
+      "label": "高速/二广高速"
+    },
+    {
+      "value": "机场",
+      "label": "机场"
+    },
+    {
+      "value": "党政军机关",
+      "label": "党政军机关"
+    },
+    {
+      "value": "国道省道",
+      "label": "国道省道"
+    },
+    {
+      "value": "村庄",
+      "label": "村庄"
+    },
+    {
+      "value": "武警军区",
+      "label": "武警军区"
+    },
+    {
+      "value": "医院",
+      "label": "医院"
+    },
+    {
+      "value": "星级酒店",
+      "label": "星级酒店"
+    },
+    {
+      "value": "低层居民区",
+      "label": "低层居民区"
+    },
+    {
+      "value": "城中村",
+      "label": "城中村"
+    },
+    {
+      "value": "工业园区",
+      "label": "工业园区"
+    },
+    {
+      "value": "长途汽车站",
+      "label": "长途汽车站"
+    },
+    {
+      "value": "集贸市场",
+      "label": "集贸市场"
+    },
+    {
+      "value": "别墅群",
+      "label": "别墅群"
+    },
+    {
+      "value": "商业中心",
+      "label": "商业中心"
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+    "gridIssueDetailBody": {
+        "alarm": [
+            {
+                "field": "date",
+                "title": "日期"
+            },
+            {
+                "field": "city",
+                "title": "地市"
+            },
+            {
+                "field": "gridid",
+                "title": "栅格ID"
+            },
+            {
+                "field": "eci",
+                "title": "ECI"
+            },
+            {
+                "field": "alarmname",
+                "title": "告警对象"
+            },
+            {
+                "field": "cellname",
+                "title": "告警内容"
+            },
+            {
+                "field": "clrinsert_time",
+                "title": "告警开始时间"
+            },
+            {
+                "field": "inserttime",
+                "title": "告警结束时间"
+            }
+        ],
+        "angle": [
+            {
+                "field": "date",
+                "title": "日期"
+            },
+            {
+                "field": "city",
+                "title": "地市"
+            },
+            {
+                "field": "gridid",
+                "title": "栅格ID"
+            },
+            {
+                "field": "eci",
+                "title": "ECI"
+            },
+            {
+                "field": "cellname",
+                "title": "小区名称"
+            },
+            {
+                "field": "sangle",
+                "title": "原工参天线方位角"
+            },
+            {
+                "field": "avgaoa",
+                "title": "天线到达角"
+            },
+            {
+                "field": "angle",
+                "title": "建议天线方位角调整"
+            }
+        ],
+        "antenna": [
+            {
+                "field": "date",
+                "title": "日期"
+            },
+            {
+                "field": "city",
+                "title": "地市"
+            },
+            {
+                "field": "gridid",
+                "title": "栅格ID"
+            },
+            {
+                "field": "eci",
+                "title": "ECI"
+            },
+            {
+                "field": "cellname",
+                "title": "小区名称"
+            },
+            {
+                "field": "antenna",
+                "title": "疑是天馈老化"
+            }
+        ],
+        "backbuild": [
+            {
+                "field": "date",
+                "title": "日期"
+            },
+            {
+                "field": "city",
+                "title": "地市"
+            },
+            {
+                "field": "gridid",
+                "title": "栅格ID"
+            },
+            {
+                "field": "eci",
+                "title": "ECI"
+            },
+            {
+                "field": "cellname",
+                "title": "小区名称"
+            },
+            {
+                "field": "backbuild",
+                "title": "建筑物阻挡分析结论"
+            }
+        ],
+        "missnei": [
+            {
+                "field": "date",
+                "title": "日期"
+            },
+            {
+                "field": "city",
+                "title": "地市"
+            },
+            {
+                "field": "gridid",
+                "title": "栅格ID"
+            },
+            {
+                "field": "seci",
+                "title": "原小区ECI"
+            },
+            {
+                "field": "scellname",
+                "title": "原小区名称"
+            },
+            {
+                "field": "scellnum",
+                "title": "原小区在栅格中采样点数"
+            },
+            {
+                "field": "scellrate",
+                "title": "源小区栅格覆盖率"
+            },
+            {
+                "field": "deci",
+                "title": "漏配小区ECI"
+            },
+            {
+                "field": "dcellname",
+                "title": "漏配小区名称"
+            },
+            {
+                "field": "dcellnum",
+                "title": "漏配小区在栅格中采样点数"
+            },
+            {
+                "field": "dcellrate",
+                "title": "漏配小区栅格覆盖率"
+            }
+        ],
+        "nobestcell": [
+            {
+                "field": "date",
+                "title": "日期"
+            },
+            {
+                "field": "city",
+                "title": "地市"
+            },
+            {
+                "field": "gridid",
+                "title": "栅格ID"
+            },
+            {
+                "field": "eci",
+                "title": "ECI"
+            },
+            {
+                "field": "cellname",
+                "title": "小区名称"
+            },
+            {
+                "field": "vendorname",
+                "title": "厂家"
+            },
+            {
+                "field": "paramname",
+                "title": "参数名称"
+            },
+            {
+                "field": "realvalue",
+                "title": "原值"
+            },
+            {
+                "field": "planvalue",
+                "title": "建议值"
+            },
+            {
+                "field": "nobestcell",
+                "title": "未占用最优小区"
+            }
+        ],
+        "overcover": [
+            {
+                "field": "date",
+                "title": "日期"
+            },
+            {
+                "field": "city",
+                "title": "地市"
+            },
+            {
+                "field": "gridid",
+                "title": "栅格ID"
+            },
+            {
+                "field": "eci",
+                "title": "ECI"
+            },
+            {
+                "field": "cellname",
+                "title": "小区名称"
+            },
+            {
+                "field": "sdir",
+                "title": "原天线下倾角"
+            },
+            {
+                "field": "ddir",
+                "title": "建议调整下倾角"
+            },
+            {
+                "field": "overcover",
+                "title": "调整建议"
+            }
+        ],
+        "overdistance": [
+            {
+                "field": "date",
+                "title": "日期"
+            },
+            {
+                "field": "city",
+                "title": "地市"
+            },
+            {
+                "field": "gridid",
+                "title": "栅格ID"
+            },
+            {
+                "field": "eci",
+                "title": "ECI"
+            },
+            {
+                "field": "cellname",
+                "title": "小区名称"
+            },
+            {
+                "field": "coverrate",
+                "title": "栅格覆盖率"
+            },
+            {
+                "field": "sitedistance",
+                "title": "平均站间距(米)"
+            },
+            {
+                "field": "overdistance",
+                "title": "站间距过远结论"
+            }
+        ]
+    },
+    "homepageTable": [
+        {
+            "field": "date",
+            "title": "日期"
+        },
+        {
+            "field": "city",
+            "title": "城市"
+        },
+        {
+            "field": "major",
+            "title": "归属场景类型"
+        },
+        {
+            "field": "minor",
+            "title": "归属场景名称"
+        },
+        {
+            "field": "up",
+            "title": "栅格内总采样点数（移动）"
+        },
+        {
+            "field": "up110",
+            "title": "栅格内大于-110采样点数（移动）"
+        },
+        {
+            "field": "ccover",
+            "title": "栅格覆盖率（移动）"
+        },
+        {
+            "field": "ucover",
+            "title": "栅格覆盖率（联通）"
+        },
+        {
+            "field": "tcover",
+            "title": "栅格覆盖率（电信）"
+        },
+        {
+            "field": "all",
+            "title": "总栅格数"
+        },
+        {
+            "field": "poor",
+            "title": "弱覆盖栅格数"
+        },
+        {
+            "field": "count",
+            "title": "竞对差栅格数"
+        }
+    ],
+    "mrDataTable": [
+        {
+            "field": "grid",
+            "title": "栅格ID"
+        },
+        {
+            "field": "city",
+            "title": "城市"
+        },
+        {
+            "field": "date",
+            "title": "日期"
+        },
+        {
+            "field": "c_coverage",
+            "title": "移动覆盖率(MR数据)",
+            "className": "aaaaa"
+        },
+        {
+            "field": "u_coverage",
+            "title": "联通覆盖率(MR数据)",
+            "className": "bbbbb"
+        },
+        {
+            "field": "t_coverage",
+            "title": "电信覆盖率(MR数据)"
+        },
+        {
+            "field": "s_coverage",
+            "title": "移动覆盖率（仿真数据）"
+        }
+    ],
+    "gridIssueTable": [
+        {
+            "field": "date",
+            "title": "日期"
+        },
+        {
+            "field": "city",
+            "title": "城市"
+        },
+        {
+            "field": "eci",
+            "title": "小区ECI"
+        },
+        {
+            "field": "alarmname",
+            "title": "告警名称"
+        }
+    ],
+    "holidayContrastTable": [
+        {
+            "field": "city",
+            "title": "地市"
+        },
+        {
+            "field": "type",
+            "title": "场景"
+        },
+        {
+            "field": "type_name",
+            "title": "场景名称"
+        },
+        {
+            "field": "pdcp1",
+            "title": "时段一",
+            "className": "aaaaa"
+        },
+        {
+            "field": "pdcp2",
+            "title": "时段二",
+            "className": "bbbbb"
+        },
+        {
+            "field": "pdcp_change",
+            "title": "流量对比"
+        },
+        {
+            "field": "cover1",
+            "title": "时段一",
+            "className": "aaaaa"
+        },
+        {
+            "field": "cover2",
+            "title": "时段二",
+            "className": "bbbbb"
+        },
+        {
+            "field": "cover_change",
+            "title": "覆盖率对比"
+        },
+        {
+            "field": "connection_rate1",
+            "title": "时段一",
+            "className": "aaaaa"
+        },
+        {
+            "field": "connection_rate2",
+            "title": "时段二",
+            "className": "bbbbb"
+        },
+        {
+            "field": "connection_rate_change",
+            "title": "无线接通率对比"
+        },
+        {
+            "field": "drop_rate1",
+            "title": "时段一",
+            "className": "aaaaa"
+        },
+        {
+            "field": "drop_rate2",
+            "title": "时段二",
+            "className": "bbbbb"
+        },
+        {
+            "field": "drop_rate_change",
+            "title": "无线掉线率对比"
+        },
+        {
+            "field": "ho_succ1",
+            "title": "时段一",
+            "className": "aaaaa"
+        },
+        {
+            "field": "ho_succ2",
+            "title": "时段二",
+            "className": "bbbbb"
+        },
+        {
+            "field": "ho_succ2_change",
+            "title": "切换成功率对比"
+        }
+    ],
+    "complaintIssueTable": [
+        {
+            "field": "WO_ID",
+            "title": "工单编号"
+        },
+        {
+            "field": "AbnormalEvent_Time",
+            "title": "异常信令时间点"
+        },
+        {
+            "field": "Interface_Type",
+            "title": "接口类型"
+        },
+        {
+            "field": "AbnormalEvent",
+            "title": "异常信令名称"
+        },
+        {
+            "field": "CauseValue",
+            "title": "异常信令cause值"
+        },
+        {
+            "field": "def_cellname_chinese",
+            "title": "异常事件小区名"
+        },
+        {
+            "field": "Service_Type",
+            "title": "服务类型"
+        },
+        {
+            "field": "RSRP",
+            "title": "异常时间点RSRP"
+        },
+        {
+            "field": "Host",
+            "title": "host服务器"
+        },
+        {
+            "field": "HttpDelay_Time",
+            "title": "HTTP加载时延"
+        }
+    ],
+    "comHead": [
+        {
+            "field": "date",
+            "title": "日期",
+            "className": "aaaa"
+        },
+        {
+            "field": "city",
+            "title": "城市"
+        },
+        {
+            "field": "gridid",
+            "title": "柵格ID",
+            "className": "bbbbb"
+        },
+        {
+            "field": "major",
+            "title": "归属场景类型"
+        },
+        {
+            "field": "minor",
+            "title": "归属场景名称"
+        },
+        {
+            "field": "type",
+            "title": "栅格类型"
+        },
+        {
+            "field": "count",
+            "title": "栅格内总采样点数（移动）"
+        },
+        {
+            "field": "up110",
+            "title": "栅格内大于-110采样点数（移动）"
+        },
+        {
+            "field": "ccover",
+            "title": "栅格覆盖率（移动）"
+        },
+        {
+            "field": "ucover",
+            "title": "栅格覆盖率（联通）"
+        },
+        {
+            "field": "tcover",
+            "title": "栅格覆盖率（电信）"
+        },
+        {
+            "field": "woid",
+            "title": "栅格内投诉工单"
+        },
+        {
+            "field": "mr",
+            "title": "MR与仿真数据"
+        },
+        {
+            "field": "iss",
+            "title": "分析报告"
+        }
+    ],
+    "head": [
+        {
+            "field": "city",
+            "title": "城市"
+        },
+        {
+            "field": "scence",
+            "title": "场景分类"
+        },
+        {
+            "field": "classify",
+            "title": "二级分类"
+        },
+        {
+            "field": "scenceName",
+            "title": "场景名称"
+        },
+        {
+            "field": "allNumber",
+            "title": "总采点数"
+        },
+        {
+            "field": "sambleNumber",
+            "title": "小于-110采样点数"
+        },
+        {
+            "field": "samblePersent",
+            "title": "小于-110采样点占比%"
+        }
+    ],
+    "body": [
+        {
+            "city": "长沙",
+            "scence": "高校",
+            "classify": "教学区",
+            "scenceName": "湖南大学",
+            "allNumber": "8778485",
+            "sambleNumber": "79006",
+            "samblePersent": "0.9"
+        }
+    ]
+}

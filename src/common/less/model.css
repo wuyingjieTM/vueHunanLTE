@@ -1,0 +1,235 @@
+html,
+body {
+  line-height: 1 !important;
+  width: 100%;
+  min-height: 100%;
+  background-color: #F3F5F6 !important;
+  font-size: 14px;
+  font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+}
+.header {
+  background-color: #fafafa;
+}
+header {
+  position: fixed;
+  top: -2px;
+  height: 66px;
+  left: 0;
+  right: 0;
+  z-index: 998;
+  background-size: 100% 100%;
+  background-color: #0284DA;
+  background-blend-mode: lighten;
+}
+div,
+p,
+span,
+li,
+tr,
+td,
+th,
+input,
+a {
+  color: #495060;
+}
+/* 内容容器 */
+.appContainer {
+  padding: 70px 20px 20px 20px;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+.disturb-proportion::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #80848F;
+  border-radius: 10px;
+  background-color: #495060;
+}
+.disturb-proportion::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #1C2437;
+  background-color: #1C2437;
+}
+.boxShadowBlue {
+  box-shadow: 4px 4px 20px #0284DA;
+}
+.boxShadowGreen {
+  box-shadow: 4px 4px 20px #0284DA;
+}
+/*清除浮动*/
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
+.overY {
+  overflow-y: scroll;
+}
+.overX {
+  overflow-x: scroll;
+}
+.esri-popup__main-container header {
+  height: 40px !important;
+  background-color: transparent !important;
+}
+.esri-popup__feature-butto,
+.esri-popup__feature-buttons {
+  display: none !important;
+}
+.partTitle {
+  border-bottom: 1px solid #DDDEE2;
+  color: #1C2437;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.partContain {
+  margin-top: 15px;
+  width: 100%;
+  border: 1px solid #DDDEE2;
+}
+.appLog {
+  height: 66px;
+  line-height: 66px;
+  font-weight: 700;
+  float: left;
+  color: #fff;
+  margin-left: 40px;
+}
+.appLog li {
+  float: left;
+  background-color: #0066cc;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 1px;
+  color: #fff;
+}
+.loginText {
+  float: left;
+  width: 200px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 31px;
+  padding-left: 20px;
+}
+.boxShadow {
+  border: 1px solid #dadada;
+  -webkit-box-shadow: 0px 0px 40px 0px #c1c1c1 inset;
+  box-shadow: 0px 0px 40px 0px #8a878752 inset;
+}
+/* 二级导航Manu */
+.insideBar {
+  border-bottom: 1px solid #efefef;
+}
+.sideBar .router-link-exact-active.router-link-active.tabActive {
+  background-color: #fafafa !important;
+}
+.ant-menu {
+  background-color: transparent;
+}
+.router-link-exact-active {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+.ant-menu-horizontal > .ant-menu-item-active,
+.ant-menu-horizontal > .ant-menu-item-open,
+.ant-menu-horizontal > .ant-menu-item-selected,
+.ant-menu-horizontal > .ant-menu-item:hover,
+.ant-menu-horizontal > .ant-menu-submenu-active,
+.ant-menu-horizontal > .ant-menu-submenu-open,
+.ant-menu-horizontal > .ant-menu-submenu-selected,
+.ant-menu-horizontal > .ant-menu-submenu:hover {
+  border-bottom: 2px solid transparent !important;
+  color: #999 !important;
+}
+.ant-menu-horizontal {
+  border-bottom: none !important;
+}
+.ant-menu-horizontal > .ant-menu-item > a,
+.ant-menu-horizontal > .ant-menu-submenu > a {
+  color: #999;
+}
+/* tabs切换签 */
+.ant-tabs-nav .ant-tabs-tab {
+  color: #999 !important;
+}
+.ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active {
+  color: #0284DA !important;
+}
+.ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  border: none !important;
+  width: 0 !important;
+}
+.ant-tabs-bar {
+  margin-bottom: 5px !important;
+  border-bottom: 0 !important;
+}
+/* 日期 、搜索框 */
+.ant-more-panel:hover {
+  border: 1px solid #31515a;
+}
+input[type=text].ant-input {
+  max-width: 360px !important;
+}
+.ant-form-item-label label {
+  color: #495060 !important;
+}
+/* select层级 */
+/* 模态框宽度 */
+.ant-modal {
+  min-width: 700px;
+}
+.ant-btn > .anticon + span,
+.ant-btn > span + .anticon {
+  color: #fff !important;
+}
+.ant-btn span {
+  color: #fff !important;
+}
+.ant-btn.ant-btn-ghost span {
+  color: #c1bcbc !important;
+}
+.loginBtn.loginBorder span {
+  color: #c1bcbc !important;
+}
+.loginBtn.loginBorder:hover span {
+  color: #fafafa !important;
+}
+.detailPart {
+  background-color: #BBBEC5;
+  padding: 0px 15px;
+  line-height: 36px;
+  font-size: 12px !important;
+}
+.containBorder {
+  border: 1px solid #DDDEE2;
+}
+.tabpanel {
+  border: 1px solid #DDDEE2;
+}
+.ant-form-inline .ant-form-item {
+  margin-right: 14px;
+}
+.tabs .ant-tabs-nav-wrap {
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+.tabs .ant-tabs-tab {
+  line-height: 28px !important;
+  padding: 0px 15px !important;
+  border-radius: 4px;
+  height: 28px !important;
+  font-size: 12px;
+  margin-right: 5px;
+  border: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+.tabs .ant-tabs-tab.ant-tabs-tab-active {
+  background-color: #fff;
+}
+.ant-collapse-header {
+  font-size: 12px;
+}

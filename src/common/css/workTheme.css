@@ -1,0 +1,217 @@
+.workTheme header {
+  position: fixed;
+  top: 0;
+  height: 80px;
+  left: 0;
+  right: 0;
+  z-index: 888;
+  background: url("../../static/images/log.png") no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.workTheme .appLog {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 270px;
+  height: 36px;
+  background: url("../../static/images/bar.png") no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+/* 背景图 */
+
+.workTheme .backgroundImg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: url("../../static/images/backgroundImage.png") no-repeat;
+  background-position: center -0;
+  background-size: 100% 100%;
+}
+
+.workTheme .boxShadow {
+  border: 1px solid #1b292d;
+  -webkit-box-shadow: 0px 0px 46px 4px #31515a inset;
+  box-shadow: 0px 0px 26px 4px #31515a inset;
+}
+
+/* 二级导航Manu */
+
+.workTheme .insideBar {
+  border-bottom: 1px solid #314242;
+}
+
+.workTheme .sideBar .router-link-exact-active.router-link-active.tabActive {
+  background-color: #1538365c !important;
+}
+
+.workTheme .ant-menu {
+  background-color: transparent;
+}
+
+.workTheme .router-link-exact-active {
+  background-color: transparent;
+  color: #19c3ba !important;
+}
+
+.workTheme .ant-menu-horizontal>.ant-menu-item-active,
+.workTheme .ant-menu-horizontal>.ant-menu-item-open,
+.workTheme .ant-menu-horizontal>.ant-menu-item-selected,
+.workTheme .ant-menu-horizontal>.ant-menu-item:hover,
+.workTheme .ant-menu-horizontal>.ant-menu-submenu-active,
+.workTheme .ant-menu-horizontal>.ant-menu-submenu-open,
+.workTheme .ant-menu-horizontal>.ant-menu-submenu-selected,
+.workTheme .ant-menu-horizontal>.ant-menu-submenu:hover {
+  border-bottom: 2px solid transparent !important;
+  color: #31515a !important;
+}
+
+.workTheme .ant-menu-horizontal {
+  border-bottom: none !important;
+}
+
+.workTheme .ant-menu-horizontal>.ant-menu-item>a,
+.workTheme .ant-menu-horizontal>.ant-menu-submenu>a {
+  color: #999;
+}
+
+/* tabs切换签 */
+
+.workTheme .ant-tabs-nav .ant-tabs-tab {
+  color: #999 !important;
+}
+
+.workTheme .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active {
+  color: #19c3ba !important;
+}
+
+.workTheme .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  border: none !important;
+  width: 0 !important;
+}
+
+.workTheme .ant-tabs-bar {
+  margin-bottom: 5px !important;
+}
+
+/* 日期 、搜索框 */
+
+.workTheme .ant-input,
+.workTheme .ant-btn,
+.workTheme .ant-more-panel,
+.workTheme .ant-more-panel-btn,
+.workTheme .ant-select-selection {
+  background-color: transparent;
+  color: #999;
+  border: 1px solid #31515a;
+  -moz-box-shadow: 0px 0px 40px 0px #31515a inset;
+  -webkit-box-shadow: 0px 0px 40px 0px #31515a inset;
+  box-shadow: 0px 0px 40px 0px #31515a inset;
+}
+
+.workTheme .ant-more-panel:hover {
+  border: 1px solid #31515a;
+}
+
+.workTheme input[type=text].ant-input {
+  max-width: 136px !important;
+}
+
+.workTheme .ant-form-item-label label {
+  color: #999 !important;
+}
+
+/* 导航 */
+
+.workTheme .sideBar>ul li {
+  height: 90px;
+  width: 80px;
+}
+
+.workTheme .sideBar>ul li div {
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  color: #31515a;
+}
+
+.workTheme .sideBar>ul li p {
+  font-size: 12px !important;
+  text-align: center;
+  color: #31515a;
+  height: 30px;
+}
+
+.workTheme .sideBar>.tabActive {
+  background-color: #1538365c;
+  color: #fff !important;
+}
+
+.workTheme .sideBar>ul li.tabActive {
+  background-color: #1538365c;
+  color: #fff !important;
+}
+
+.workTheme .sideBar>ul li.tabActive div,
+.workTheme .sideBar>ul li.tabActive p {
+  color: #fff;
+}
+
+.workTheme .sideBar>ul li:hover,
+.workTheme .sideBar>ul li:hover div,
+.workTheme .sideBar>ul li:hover p {
+  background-color: #1538365c;
+  color: #fff !important;
+}
+
+.workTheme .sideBar>.router-link-exact-active {
+  background-color: transparent;
+}
+
+/* 内部导航 */
+
+.workTheme .insideBar {
+  position: fixed;
+  top: 80px;
+  left: 80px;
+  right: 0;
+  height: 50px;
+  z-index: 999;
+  background: url("../../static/images/insidebar.png") no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+/* 日期选择器 ：区域统计*/
+
+.startmon input {
+  height: 60px !important;
+  border: none !important;
+  background-color: transparent !important;
+  color: transparent !important;
+  width: 95%;
+}
+
+.startmon span {
+  color: transparent !important;
+}
+
+.startmon .ant-calendar-picker-icon:after {
+  color: transparent !important;
+}
+
+/* 字体图标 */
+
+.workTheme .ant-tabs-tab-next-icon:before,
+.workTheme .ant-tabs-tab-prev-icon:before,
+.workTheme .ant-calendar-picker-icon::after,
+.workTheme .ant-select-selection__clear::before {
+  color: #999 !important;
+}
+
+.workTheme .selectTime .ant-calendar-picker-icon::after {
+  color: transparent !important;
+}

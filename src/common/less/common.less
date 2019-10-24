@@ -1,0 +1,115 @@
+// 字体颜色
+@text-title: #1C2437; //标题
+@text-body: #495060; //正文
+@text-assist: #80848F; //辅助信息
+@text-error: #BBBEC5; //失效色
+@text-fff: #fff;
+// 边框线颜色
+@line-split: #E9EAEC; //分割线颜色
+@line-border: #DDDEE2; //边框颜色
+@bg-body: #F3F5F6; //主题背景颜色
+// 导航、按钮、标签、控件 
+@btn-blue: #0284DA;
+@btn-green: #18BE6A;
+@btn-orange: #FF9900;
+@btn-red: #EE3F13;
+html,
+body {
+    line-height: 1 !important;
+    width: 100%;
+    min-height: 100%;
+    background-color: @bg-body  !important;
+    font-size: 14px;
+    font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #fafafa;
+}
+
+header {
+    position: fixed;
+    top: -2px;
+    height: 66px;
+    left: 0;
+    right: 0;
+    z-index: 998;
+    background-size: 100% 100%;
+    background-color: #0284DA;
+    background-blend-mode: lighten;
+}
+
+div,
+p,
+span,
+li,
+tr,
+td,
+th,
+input,
+a {
+    color: @text-body;
+}
+
+/* 内容容器 */
+
+.appContainer {
+    padding: 70px 20px 20px 20px;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+.disturb-proportion::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px @text-assist;
+    border-radius: 10px;
+    background-color: @text-body;
+}
+
+// 定义滑块 内阴影+圆角
+.disturb-proportion::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px @text-title;
+    background-color: @text-title;
+}
+
+// 阴影设置
+.boxShadowBlue {
+    box-shadow: 4px 4px 20px @btn-blue;
+}
+
+.boxShadowGreen {
+    box-shadow: 4px 4px 20px @btn-blue;
+}
+
+/*清除浮动*/
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.overY {
+    overflow-y: scroll;
+}
+
+.overX {
+    overflow-x: scroll;
+}
+
+// arcgis地图：弹出框样式
+.esri-popup__main-container header {
+    height: 40px !important;
+    background-color: transparent !important;
+}
+
+.esri-popup__feature-butto,
+.esri-popup__feature-buttons {
+    display: none !important;
+}

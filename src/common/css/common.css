@@ -1,0 +1,161 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+td,
+th,
+caption {
+    font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+    font: 12px Verdana, Helvetica, Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* 浮动 */
+
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
+
+.disturb-proportion::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* table样式 */
+
+.ant-tabs-bar {
+    border: none;
+}
+
+/* 去掉数字输入框的上下箭头 */
+
+input.dealRow::-webkit-outer-spin-button,
+input.dealRow::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+.over {
+    overflow-y: scroll;
+}
+
+input[type=text].ant-input.inputWidthMax {
+    max-width: 500px !important;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+.scroll::-webkit-scrollbar {
+    width: 6px;
+    background-color: #ddd;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: eee;
+}
+
+/*定义滑块 内阴影+圆角*/
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .1);
+    background-color: #999;
+}
+
+div .ant-table table th {
+    text-align: center !important;
+    background-color: #878789 !important;
+    color: #e9eaec !important;
+}
+
+.ant-message-notice {
+    top: 56px !important;
+}
+
+.ant-tooltip-inner em {
+    color: #fff !important;
+}
